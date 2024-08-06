@@ -41,6 +41,7 @@ plt.barh(Name,Number)
 plt.title("TRANSACTION PER DAY", fontsize=15, fontstyle="italic", fontweight="bold")  
 plt.savefig("TRANSACTION PER DAY")  
 plt.show()
+
 ![TRANSACTION PER DAY](https://github.com/user-attachments/assets/f7f97d47-6bc8-42de-b483-952e41858e8e)
 
 2. TOTAL AMOUNT BY MONTH NAME
@@ -57,6 +58,7 @@ plt.xlabel("Month")
 plt.ylabel("Total Amount")  
 plt.savefig("TRANSACTION PER MONTH")  
 plt.show()
+
 ![TRANSACTION PER MONTH](https://github.com/user-attachments/assets/9a76af9c-bde8-4f76-8d9c-4a01a02852ee)
 
 3. TOTAL AMOUNT BY QUARTER 
@@ -71,6 +73,7 @@ plt.pie(Number2,labels=Name2,autopct="%1.0f%%",shadow=True,explode=[0,0.1,0,0.1]
 plt.title("TRANSACTION PER QUARTER", fontstyle="italic", fontsize=15, c="#808000",fontweight="bold")  
 plt.savefig("TRANSACTION PER QUARTER")  
 plt.show()
+
 ![TRANSACTION PER QUARTER](https://github.com/user-attachments/assets/49488021-fb16-4d72-88b8-1f1209af5585)
 
 4. TOTAL AMOUNT YEARLY 
@@ -87,6 +90,7 @@ plt.xlabel("Year")
 plt.ylabel("Total Amount")  
 plt.savefig("TRANSACTION PER YEAR")  
 plt.show()
+
 ![TRANSACTION PER YEAR](https://github.com/user-attachments/assets/278ecac8-6cd9-46a7-bb4c-e40e5027cd3c)
 
 5. TOTAL NUMBER OF PRODUCT SOLD 
@@ -100,6 +104,7 @@ plt.pie(Number4,labels=Name4,shadow=True,autopct="%1.0f%%",explode=[0.1,0.1,0,0]
 plt.title("TOTAL NUMBER OF PRODUCTS SOLD", fontstyle="italic", fontweight="bold", fontsize=12,c="g")  
 plt.savefig("TOTAL NUMBER OF PRODUCT SOLD")  
 plt.show()
+
 ![TOTAL NUMBER OF PRODUCT SOLD](https://github.com/user-attachments/assets/edb215d2-4364-4a9d-ba5a-84f236fb3360)
 
 6. TOTAL AMOUNT OF DISCOUNT APPLIED FOR EACH PAYMENT METHOD
@@ -136,4 +141,5 @@ Retails[1,2].set(title="DISCOUNT APPLIED FOR EACH PAYMENT METHOD")
 plt.tight_layout()  
 plt.savefig("RETAIL")  
 plt.show()
+
 ![RETAIL](https://github.com/user-attachments/assets/5af488cc-4842-4910-89b8-16d7c525f750)
