@@ -115,6 +115,7 @@ plt.xlabel("Payment Method")
 plt.ylabel("Discount Applied(%)")  
 plt.savefig("DISCOUNT APPLIED")
 plt.show()
+
 ![DISCOUNT APPLIED](https://github.com/user-attachments/assets/c6921d32-a99c-4da3-a41a-786ac29cc256)
 
 # SCREENSHOT OF THE CHART IN SUBPLOT
